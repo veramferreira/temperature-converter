@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>What's the temperature? 🥵</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>What is the temperature at the moment?</h1>
+
+    <label for="tempCel">Insert temperature in Celsius degrees here:</label>
+    <input type="text" id="tempCel" placeholder="Temperature in ºC" />
+
+    <button id="convertTemp">Convert</button>
+
+    <h2>The temperature in Fahrenheit is <span id="tempFahr"></span></h2>
+
+    <section>
+      <img id="cold" class="hidden" src="img/cold.gif" />
+      <img id="justRight" class="hidden" src="img/justRight.gif" />
+      <img id="hot" class="hidden" src="img/hot.gif" />
+      <img id="whatsThat" class="hidden" src="img/whatsThat.gif" />
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
